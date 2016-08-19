@@ -6,14 +6,14 @@ package arraysolution;
  */
 public class ArrayProcessor {
 
-    public void incrementElementsByOne(final int[] givenArray) {
+    public String incrementElementsByOne(final int[] givenArray) {
 
         StringBuilder sb = new StringBuilder();
         for (int i = 0; i < givenArray.length; i++) {
             int value = givenArray[i];
             sb.append(value + 1);
         }
-        System.out.println(sb.toString());
+       return sb.toString();
     }
 
     public int[] generateIncrementedArray(final int[] givenArray) {
