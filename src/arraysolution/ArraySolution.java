@@ -16,7 +16,8 @@ public class ArraySolution {
         int[] sampleArray = {9, 9, 9, 9};
         ArrayProcessor processArray = new ArrayProcessor();
         
-        processArray.incrementElementsByOne(sampleArray);
+        String returnedString = processArray.incrementElementsByOne(sampleArray);
+        System.out.println(returnedString);
         int[] incrementedArray = processArray.generateIncrementedArray(sampleArray);
         System.out.println(Arrays.toString(incrementedArray));
     }
